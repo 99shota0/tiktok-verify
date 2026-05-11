@@ -2,15 +2,57 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>Video Auto Poster</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video-Auto-Post</title>
     <link rel="icon" href="icon.png" type="image/png">
+    
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            text-align: center;
+            margin-top: 80px;
+            color: #333;
+        }
+        .login-btn {
+            background-color: #FE2C55; /* TikTokっぽい赤色 */
+            color: white;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 30px 0;
+            transition: 0.3s;
+        }
+        .login-btn:hover {
+            background-color: #E62A4D;
+        }
+        .links {
+            margin-top: 50px;
+            font-size: 14px;
+        }
+        .links a {
+            margin: 0 15px;
+            color: #666;
+            text-decoration: none;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Video Auto Poster</h1>
-    <p>イヴのAIキャラクター動画を自動生成して投稿するシステムです</p>
-    <ul>
-        <li><a href="terms.html">利用規約</a></li>
-        <li><a href="privacy.html">プライバシーポリシー</a></li>
-    </ul>
+    <h1>Video-Auto-Post</h1>
+    <p>イヴたちのAIキャラクター動画を自動生成してTikTokへ投稿するシステムです</p>
+
+    <button class="login-btn" onclick="alert('ログイン処理を開始します（デモ用）')">
+        Log in with TikTok
+    </button>
+
+    <div class="links">
+        <a href="terms.html">利用規約 (Terms of Service)</a>
+        <a href="privacy.html">プライバシーポリシー (Privacy Policy)</a>
+    </div>
 </body>
 </html>
